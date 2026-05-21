@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["halo", "hai", "selamat pagi", "permisi"],
+      "responses": ["Halo! Ada yang bisa saya bantu?", "Hai, selamat datang!"]
+    },
+    {
+      "tag": "pamit",
+      "patterns": ["dah", "sampai jumpa", "terima kasih", "keluar"],
+      "responses": ["Sampai jumpa lagi!", "Semoga harimu menyenangkan."]
+    },
+    {
+      "tag": "tanya_kabar",
+      "patterns": ["apa kabar?", "gimana kabarmu?", "kabarnya gimana?"],
+      "responses": ["Saya hanya bot, tapi saya merasa luar biasa! Kamu sendiri bagaimana?", "Kabar baik! Siap membantu kamu."]
+    }
+  ]
+}
